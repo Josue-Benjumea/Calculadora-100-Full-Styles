@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-body">
+        <input type="text"  id="result" placeholder="0" >
+   
+    <div class="num-container">
+        <button class="s-button" onclick="numbers(7)">7</button>
+        <button class="s-button" onclick="numbers(8)">8</button>
+        <button class="s-button" onclick="numbers(9)">9</button>
+        <button class="s-button" onclick="numbers('+')">+</button>
+    </div>
+    <div class="num-container">
+        <button class="s-button" onclick="numbers(4)">4</buttton>
+        <button class="s-button" onclick="numbers(5)">5</button>
+        <button class="s-button" onclick="numbers(6)">6</button>
+        <button class="s-button" onclick="numbers('-')">-</button>
+    </div>
+    <div class="num-container">
+        <button class="s-button" onclick="numbers(1)">1</buttton>
+        <button class="s-button" onclick="numbers(2)">2</button>
+        <button class="s-button" onclick="numbers(3)">3</button>
+        <button class="s-button" onclick="numbers('/')">/</button>
+    </div>
+    <div class="num-container">
+        <button class="s-button" onclick="reset()">c</buttton>
+        <button class="s-button" onclick="numbers(0)">0</button>
+        <button class="s-button" onclick="numbers('.')">.</button>
+        <button class="s-button" onclick="numbers('*')">x</button>
+    </div>
+    <div class="num-container-2">
+        <button class="s-button" onclick="numbers('<')"> < </buttton>
+        <button class="s-button" onclick="numbers('>')">></button>
+        <button class="s-button-2" onclick="operation()">=</button>
+       
+    </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
